@@ -55,5 +55,8 @@ class MainActivity : AppCompatActivity() {
         val questionTextResId = questionBank[currentIndex].textResId
         questionTextView.setText((questionTextResId))
         updateQuestion()}
+    private fun updateQuestion(){
+        val questionTextResId = questionBank[currentIndex].textResId
+        questionTextView.setText(questionTextResId)
     }
 }
