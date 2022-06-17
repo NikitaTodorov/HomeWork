@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">HomeWork</string>
+    <string name="question_text1">Вы любите РМП?</string>
+    <string name="question_text2">Вам нравится Алишер?</string>
+    <string name="question_text3">Вы хотите убрать Витю Форносова?</string>
+    <string name="question_text4">У тебя есть права?</string>
+    <string name="question_text5">Играешь ли ты в бравл?</string>
+    <string name="question_text6">Любишь маму?</string>
+    <string name="next_button">Next</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="correct_toast">correct!</string>
+    <string name="incorrect_toast">incorrect</string>
 </resources>
