@@ -59,18 +59,39 @@
         tools:ignore="TextContrastCheck"
         tools:text="@string/question_text1" />
 
-    <Button
+    <ImageButton
         android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="124dp"
+        android:layout_marginBottom="160dp"
         android:backgroundTint="@color/light_green"
-        android:drawableEnd="@drawable/arrow_right"
-        android:drawablePadding="4dp"
+        android:contentDescription="@string/todo"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:src="@drawable/arrow_right"
         android:text="@string/next_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="TextContrastCheck" />
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/prev_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="160dp"
+        android:backgroundTint="@color/light_green"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:src="@drawable/arrow_left"
+        android:text="@string/prev_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.334"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck,SpeakableTextPresentCheck"
+        android:contentDescription="@string/todo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
